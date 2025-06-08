@@ -174,7 +174,7 @@ nav {
   font-weight: 700;
   letter-spacing: 0.02em;
   text-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Enhanced shadow for better contrast */
-  color: white;
+  color: #333;
 }
 
 .hero p {
