@@ -472,6 +472,7 @@ section:nth-child(even) {
   margin-bottom: 2rem;
   position: relative;
   transition: transform 0.3s ease;
+  color: #f8f9fa;
 }
 
 .experience-item:hover {
