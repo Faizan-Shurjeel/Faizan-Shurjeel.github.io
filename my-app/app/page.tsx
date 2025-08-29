@@ -1,12 +1,11 @@
 "use client";
 import { useEffect } from "react";
-import Image from "next/image";
 
 export default function Home() {
   useEffect(() => {
     // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-      anchor.addEventListener("click",  (e) => {
+      anchor.addEventListener("click", (e) => {
         e.preventDefault();
         const target = document.querySelector(anchor.getAttribute("href")!);
         if (target) {
@@ -52,11 +51,13 @@ export default function Home() {
     // Add hover effects to project cards
     document.querySelectorAll(".project-card").forEach((card) => {
       card.addEventListener("mouseenter", (e) => {
-        (e.currentTarget as HTMLElement).style.transform = "translateY(-10px) scale(1.02)";
+        (e.currentTarget as HTMLElement).style.transform =
+          "translateY(-10px) scale(1.02)";
       });
 
       card.addEventListener("mouseleave", (e) => {
-        (e.currentTarget as HTMLElement).style.transform = "translateY(0) scale(1)";
+        (e.currentTarget as HTMLElement).style.transform =
+          "translateY(0) scale(1)";
       });
     });
 
@@ -599,3 +600,4 @@ export default function Home() {
     </>
   );
 }
+// }

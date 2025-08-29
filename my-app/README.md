@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio - Next.js
+
+This is a [Next.js](https://nextjs.org) version of my personal portfolio.
 
 ## Getting Started
 
@@ -18,19 +20,22 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Build for Static Export
 
-## Learn More
+To build the application for static hosting, run the following command:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This will generate a static version of your site in the `out` directory. These are the minified HTML, CSS, and JS files you can deploy.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deploy on GitHub Pages
 
-## Deploy on Vercel
+The easiest way to deploy your Next.js app to GitHub Pages is to use GitHub Actions to automate the build and deployment process.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1.  **Push your code** to the `main` branch of your `Faizan-Shurjeel.github.io` repository.
+2.  In your repository settings on GitHub, go to **Pages**.
+3.  Under "Build and deployment", set the **Source** to **GitHub Actions**.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This will deploy the contents of the `out` folder to your GitHub Pages site. The site will be available at `https://faizan-shurjeel.github.io/`.
