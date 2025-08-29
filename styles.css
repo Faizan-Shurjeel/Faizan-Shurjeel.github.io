@@ -7,7 +7,6 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  color: #333;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   min-height: 100vh;
 }
@@ -272,17 +271,18 @@ nav {
 section {
   padding: 5rem 0;
   background: #333;
+  color: #f8f9fa;
 }
 
 section:nth-child(even) {
   background: #f8f9fa;
+  color: #333;
 }
 
 .section-title {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 3rem;
-  color: #333;
   position: relative;
 }
 
@@ -306,6 +306,7 @@ section:nth-child(even) {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
   transition: transform 0.3s ease;
+  color: #f8f9fa;
 }
 
 .education-card:hover {
@@ -347,6 +348,7 @@ section:nth-child(even) {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   position: relative;
+  color: #f8f9fa;
 }
 
 .project-card:hover {
@@ -369,7 +371,7 @@ section:nth-child(even) {
 }
 
 .project-card h3 {
-  color: #333;
+  color: #667eea;
   margin-bottom: 1rem;
   font-size: 1.3rem;
 }
@@ -514,7 +516,7 @@ section:nth-child(even) {
 /* Footer */
 footer {
   background: linear-gradient(135deg, #1a1c2c 0%, #2d3047 100%);
-  color: #333;
+  color: #ccc;
   padding: 3rem 0;
   text-align: center;
 }
