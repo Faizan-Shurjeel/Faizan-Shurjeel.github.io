@@ -4,7 +4,7 @@ const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: isProd ? "/Faizan-Shurjeel.github.io" : "",
+  basePath: "",
   productionBrowserSourceMaps: false,
   images: {
     unoptimized: true,
